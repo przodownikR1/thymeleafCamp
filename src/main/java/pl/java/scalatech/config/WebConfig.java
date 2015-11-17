@@ -38,6 +38,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
         messageSource.setBasename("classpath:i18n/messages");
         messageSource.setUseCodeAsDefaultMessage(false);
+        messageSource.setCacheSeconds(20);
         return messageSource;
     }
 
@@ -59,12 +60,12 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/assets/**").addResourceLocations("classpath:/META-INF/resources/webjars/").setCachePeriod(0);
+        registry.addResourceHandler("/assets/**").addResourceLocations("classpath:/META-INF/resources/webjars/").setCachePeriod(3000);
         registry.addResourceHandler("/css/**").addResourceLocations("classpath:/css/").setCachePeriod(0);
-        registry.addResourceHandler("/images/**").addResourceLocations("classpath:/resources/images/").setCachePeriod(0);
-        registry.addResourceHandler("/favicon.ico").addResourceLocations("classpath:/static/favicon.ico");
+        registry.addResourceHandler("/images/**").addResourceLocations("classpath:/resources/images/").setCachePeriod(3000);
+        registry.addResourceHandler("/favicon.ico").addResourceLocations("classpath:/static/favicon.ico").setCachePeriod(3000);
         registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
-        registry.addResourceHandler("/js/**").addResourceLocations("classpath:/js/").setCachePeriod(0);
+        registry.addResourceHandler("/js/**").addResourceLocations("classpath:/js/").setCachePeriod(3000);
 
     }
 
