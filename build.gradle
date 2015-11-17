@@ -1,0 +1,113 @@
+buildscript {
+	ext {
+		springBootVersion = '1.2.6.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+        jcenter()
+	}
+	dependencies {
+		classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
+		classpath 'io.spring.gradle:dependency-management-plugin:0.5.3.RELEASE'
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'groovy'
+
+jar {
+	baseName = 'thymeleafCamp'
+	version = '0.1.0-SNAPSHOT'
+}
+
+repositories {
+     mavenCentral()
+     jcenter()
+	
+}
+
+
+ext {
+     springDataVersion = 'Fowler-RELEASE'
+     springVersion = '4.2.2.RELEASE'
+     hibernateVersion = "5.0.2.Final"
+     javaxValidationVersion = "1.1.0.Final"
+     hibernateValidatorVersion = "5.0.3.Final"
+     lombokVersion = "1.16.4"   
+     apacheHttpVersion = "4.5"
+   
+     
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+sourceSets {
+    intTest
+    main {
+        java { srcDir 'src/main/java' }
+        groovy { srcDir 'src/main/groovy' }
+        resources { srcDir 'src/main/resources' }
+    }
+    test {
+        java { srcDir 'src/test/java' }
+        groovy { srcDir 'src/test/groovy' }
+        resources { srcDir 'src/test/resources' }
+    }
+}
+
+dependencyManagement {
+	imports {
+		mavenBom 'org.springframework:spring-framework-bom:4.2.1.RELEASE'
+                mavenBom "org.springframework.data:spring-data-releasetrain:${springDataVersion}"
+	}
+}
+
+dependencies {
+	compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    compile 'org.springframework.boot:spring-boot-starter-logging'
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+    compile 'org.springframework.hateoas:spring-hateoas:0.18.0.RELEASE' //19 problem  Failed to instantiate [com.fasterxml.jackson.databind.ObjectMapper]
+    //n: Error creating bean with name 'halObjectMapper' defined in class path resource [org/springframework/boot/autoconfigure/data/rest/SpringBootRepositoryRestMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.fasterxml.jackson.databind.ObjectMapper]:
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.6.2'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.6.2'
+    compile 'org.springframework:spring-core'
+    compile 'org.springframework:spring-beans'
+    compile 'org.springframework:spring-context'
+    compile 'org.springframework:spring-orm'
+    compile 'org.springframework:spring-tx'
+    compile 'org.projectlombok:lombok:1.16.6'
+   
+    
+    compile 'javax.validation:validation-api:1.1.0.Final'
+    compile 'org.hibernate:hibernate-validator:5.2.2.Final'
+    compile 'org.hibernate:hibernate-core:5.0.2.Final'
+    compile 'org.hibernate:hibernate-entitymanager:5.0.2.Final'
+   
+    
+    compile 'com.h2database:h2'
+    compile 'com.google.guava:guava:18.0'
+    
+    compile 'org.codehaus.groovy:groovy-all:2.4.5'
+    compile 'com.fasterxml.jackson.core:jackson-databind'
+   
+    testCompile 'org.mockito:mockito-all:1.10.19'
+    compile 'org.apache.httpcomponents:httpclient:4.5'
+    compile 'org.apache.httpcomponents:fluent-hc:4.5'
+  
+    
+    
+    testCompile 'com.jayway.jsonpath:json-path'
+    testCompile 'junit:junit'
+    testCompile 'org.assertj:assertj-core:3.2.0'
+    testCompile 'org.springframework:spring-test'
+    
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+    testCompile("org.spockframework:spock-core:1.0-groovy-2.4")
+    testCompile("org.codehaus.groovy.modules.http-builder:http-builder:0.7+")
+    compile 'net.sf.json-lib:json-lib:2.4:jdk15'
+    
+}
