@@ -110,4 +110,13 @@ dependencies {
     testCompile("org.codehaus.groovy.modules.http-builder:http-builder:0.7+")
     compile 'net.sf.json-lib:json-lib:2.4:jdk15'
     
+    compile 'org.webjars:bootstrap:3.3.5'
+    compile 'org.webjars:jquery:2.1.4'
+    compile 'org.webjars:jquery-ui:1.11.4'
+    compile 'org.webjars:jquery-ui-themes:1.11.4'
+    compile ("org.webjars.bower:jquery.bootgrid:1.2.0") {
+        exclude group: 'org.webjars.bower'
+    }
+   
+    
 }

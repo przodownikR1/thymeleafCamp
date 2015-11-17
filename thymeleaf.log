@@ -283,3 +283,55 @@
 2015-11-17 11:20:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Started ThymeleafCamp in 4.073 seconds (JVM running for 4.401) 
 2015-11-17 11:20:09   [http-nio-9111-exec-1] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
 2015-11-17 11:20:13   [http-nio-9111-exec-2] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:21:14   [http-nio-9111-exec-3] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:21:16   [http-nio-9111-exec-4] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:21:16   [http-nio-9111-exec-5] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:21:16   [http-nio-9111-exec-6] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:37:23   [http-nio-9111-exec-7] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:57:48   [http-nio-9111-exec-8] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:57:49   [http-nio-9111-exec-9] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:57:52   [http-nio-9111-exec-10] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:58:40   [http-nio-9111-exec-1] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:58:41   [http-nio-9111-exec-2] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:58:42   [http-nio-9111-exec-3] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:58:42   [http-nio-9111-exec-4] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:58:42   [http-nio-9111-exec-5] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:58:43   [http-nio-9111-exec-6] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:58:43   [http-nio-9111-exec-7] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:58:43   [http-nio-9111-exec-8] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:58:43   [http-nio-9111-exec-9] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:58:44   [http-nio-9111-exec-10] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:59:02   [http-nio-9111-exec-1] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:59:04   [http-nio-9111-exec-2] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 11:59:11   [http-nio-9111-exec-3] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 12:01:31   [main] INFO  pl.java.scalatech.ThymeleafCamp - Starting ThymeleafCamp on przodownik-r1 with PID 20918 (/home/przodownik/blog/thymeleafCamp/bin started by przodownik in /home/przodownik/blog/thymeleafCamp) 
+2015-11-17 12:01:35   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=1), name=Samsung, location=korea) 
+2015-11-17 12:01:35   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=2), name=Everlast, location=usa) 
+2015-11-17 12:01:35   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=3), name=yamaha, location=japan) 
+2015-11-17 12:01:35   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=4), name=hammer, price=10, availability=true) 
+2015-11-17 12:01:35   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=5), name=spoon, price=0.34, availability=false) 
+2015-11-17 12:01:35   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=6), name=gun, price=123, availability=false) 
+2015-11-17 12:01:35   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=7), name=fork, price=23, availability=true) 
+2015-11-17 12:01:35   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=8), name=car, price=12345, availability=true) 
+2015-11-17 12:01:35   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=10), role=ADMIN) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=11), role=BUSINESS) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=Tue Nov 17 12:01:36 CET 2015, invoiceType=VAT) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=Tue Nov 17 12:01:36 CET 2015, invoiceType=VAT) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=Tue Nov 17 12:01:36 CET 2015, invoiceType=VAT) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=Tue Nov 17 12:01:36 CET 2015, invoiceType=VAT) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=16), firstname=slawek, lastName=borowiec, email=przodownik@tlen.pl, login=przodownik, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 12:01:36.125, invoiceType=VAT)], company=Company(super=AbstractEntity(id=1), name=Samsung, location=korea)) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=17), firstname=agnieszka, lastName=borowiec, email=borowiecA@tlen.pl, login=poka, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 12:01:36.125, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=18), firstname=kalina, lastName=borowiec, email=bbak@tlen.pl, login=bak, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=2015-11-17 12:01:36.13, invoiceType=VAT), Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=2015-11-17 12:01:36.002, invoiceType=VAT)], company=Company(super=AbstractEntity(id=3), name=yamaha, location=japan)) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=19), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=2015-11-17 12:01:36.128, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 12:01:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - Started ThymeleafCamp in 4.587 seconds (JVM running for 4.941) 
+2015-11-17 12:01:40   [http-nio-9111-exec-1] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 12:02:19   [http-nio-9111-exec-2] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 12:03:24   [http-nio-9111-exec-7] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 12:03:24   [http-nio-9111-exec-8] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 12:03:54   [http-nio-9111-exec-3] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 12:06:04   [http-nio-9111-exec-9] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
