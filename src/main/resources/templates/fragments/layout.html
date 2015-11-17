@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head th:replace="/fragments/header-include :: header-include">
+        <link th:href="@{/assets/bootstrap/3.3.5/css/bootstrap.min.css}" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+        <title th:text="${title}">demonstration application</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" layout:replace="/fragments/nav :: nav">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="container">
+       <div class="navbar-header">
+             <a class="navbar-brand" href="#">I am DUMMY header in layout</a>
+       </div>
+      </div>
+    </nav>
+
+    <div class="container">
+        <div th:remove="tag" class="row col-xs-12 col-sm-9" layout:fragment="content">
+            I am DUMMY contents!
+        </div>
+        <!--/span-->
+    </div>
+
+    <hr/>
+
+    <div class="container">
+        &copy; Easy floorball league
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <div th:replace="/fragments/footer-include :: footer-include">
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" th:src="@{/assets/bootstrap/3.3.5/js/bootstrap.min.js}"/> 
+        <script src="http://cdn.jsdelivr.net/webjars/jquery/2.1.4/jquery.min.js" th:src="@{/assets/jquery/2.1.4/jquery.min.js}"/> 
+    </div>
+</body>
+</html>
