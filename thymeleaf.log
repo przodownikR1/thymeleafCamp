@@ -854,3 +854,295 @@
 2015-11-17 13:49:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
 2015-11-17 13:49:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=19), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=2015-11-17 13:49:39.999, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
 2015-11-17 13:49:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Started ThymeleafCamp in 4.262 seconds (JVM running for 4.599) 
+2015-11-17 13:52:35   [main] INFO  pl.java.scalatech.ThymeleafCamp - Starting ThymeleafCamp on przodownik-r1 with PID 30241 (/home/przodownik/blog/thymeleafCamp/build/classes/main started by przodownik in /home/przodownik/blog/thymeleafCamp) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=1), name=Samsung, location=korea) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=2), name=Everlast, location=usa) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=3), name=yamaha, location=japan) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=4), name=hammer, price=10, availability=true) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=5), name=spoon, price=0.34, availability=false) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=6), name=gun, price=123, availability=false) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=7), name=fork, price=23, availability=true) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=8), name=car, price=12345, availability=true) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=10), role=ADMIN) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=11), role=BUSINESS) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=Tue Nov 17 13:52:39 CET 2015, invoiceType=VAT) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=Tue Nov 17 13:52:39 CET 2015, invoiceType=VAT) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=Tue Nov 17 13:52:39 CET 2015, invoiceType=VAT) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=Tue Nov 17 13:52:39 CET 2015, invoiceType=VAT) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=16), firstname=slawek, lastName=borowiec, email=przodownik@tlen.pl, login=przodownik, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 13:52:39.706, invoiceType=VAT)], company=Company(super=AbstractEntity(id=1), name=Samsung, location=korea)) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=17), firstname=agnieszka, lastName=borowiec, email=borowiecA@tlen.pl, login=poka, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 13:52:39.706, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=18), firstname=kalina, lastName=borowiec, email=bbak@tlen.pl, login=bak, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=2015-11-17 13:52:39.711, invoiceType=VAT), Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=2015-11-17 13:52:39.583, invoiceType=VAT)], company=Company(super=AbstractEntity(id=3), name=yamaha, location=japan)) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=19), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=2015-11-17 13:52:39.709, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 13:52:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Started ThymeleafCamp in 4.587 seconds (JVM running for 4.883) 
+2015-11-17 14:03:13   [http-nio-9111-exec-10] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 14:03:42   [http-nio-9111-exec-2] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 14:03:53   [http-nio-9111-exec-10] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 14:04:07   [http-nio-9111-exec-8] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 14:05:30   [http-nio-9111-exec-10] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 14:14:30   [http-nio-9111-exec-2] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 14:14:32   [http-nio-9111-exec-10] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 14:56:55   [http-nio-9111-exec-10] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 15:13:32   [http-nio-9111-exec-2] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 15:13:54   [http-nio-9111-exec-9] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 15:14:22   [http-nio-9111-exec-2] INFO  p.j.s.w.c.HelloWorldController - +++  slawek start 
+2015-11-17 22:14:38   [main] INFO  pl.java.scalatech.ThymeleafCamp - Starting ThymeleafCamp on przodownik-r1 with PID 24177 (/home/przodownik/blog/thymeleafCamp/build/classes/main started by przodownik in /home/przodownik/blog/thymeleafCamp) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=1), name=Samsung, location=korea) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=2), name=Everlast, location=usa) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=3), name=yamaha, location=japan) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=4), name=hammer, price=10, availability=true) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=5), name=spoon, price=0.34, availability=false) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=6), name=gun, price=123, availability=false) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=7), name=fork, price=23, availability=true) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=8), name=car, price=12345, availability=true) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=10), role=ADMIN) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=11), role=BUSINESS) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=Tue Nov 17 22:14:41 CET 2015, invoiceType=VAT) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=Tue Nov 17 22:14:41 CET 2015, invoiceType=VAT) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=Tue Nov 17 22:14:41 CET 2015, invoiceType=VAT) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=Tue Nov 17 22:14:41 CET 2015, invoiceType=VAT) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=16), firstname=slawek, lastName=borowiec, email=przodownik@tlen.pl, login=przodownik, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 22:14:41.866, invoiceType=VAT)], company=Company(super=AbstractEntity(id=1), name=Samsung, location=korea)) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=17), firstname=agnieszka, lastName=borowiec, email=borowiecA@tlen.pl, login=poka, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 22:14:41.866, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=18), firstname=kalina, lastName=borowiec, email=bbak@tlen.pl, login=bak, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=2015-11-17 22:14:41.87, invoiceType=VAT), Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=2015-11-17 22:14:41.757, invoiceType=VAT)], company=Company(super=AbstractEntity(id=3), name=yamaha, location=japan)) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=19), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=2015-11-17 22:14:41.868, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 22:14:41   [main] INFO  pl.java.scalatech.ThymeleafCamp - Started ThymeleafCamp in 4.009 seconds (JVM running for 4.381) 
+2015-11-17 22:14:58   [http-nio-9111-exec-4] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:15:15   [http-nio-9111-exec-5] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:16:01   [http-nio-9111-exec-2] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:16:46   [http-nio-9111-exec-8] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:18:52   [http-nio-9111-exec-6] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:18:53   [http-nio-9111-exec-4] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:19:36   [http-nio-9111-exec-2] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:19:37   [http-nio-9111-exec-8] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:19:38   [http-nio-9111-exec-7] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:19:38   [http-nio-9111-exec-4] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:20:04   [http-nio-9111-exec-1] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:20:26   [http-nio-9111-exec-9] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:20:28   [http-nio-9111-exec-5] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:20:29   [http-nio-9111-exec-2] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:20:30   [http-nio-9111-exec-8] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:20:30   [http-nio-9111-exec-7] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:20:31   [http-nio-9111-exec-4] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:20:31   [http-nio-9111-exec-10] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:20:37   [http-nio-9111-exec-7] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:20:38   [http-nio-9111-exec-5] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:21:04   [http-nio-9111-exec-1] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:21:06   [http-nio-9111-exec-8] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 22:32:03   [main] INFO  pl.java.scalatech.ThymeleafCamp - Starting ThymeleafCamp on przodownik-r1 with PID 25230 (/home/przodownik/blog/thymeleafCamp/build/classes/main started by przodownik in /home/przodownik/blog/thymeleafCamp) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=1), name=Samsung, location=korea) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=2), name=Everlast, location=usa) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=3), name=yamaha, location=japan) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=4), name=hammer, price=10, availability=true) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=5), name=spoon, price=0.34, availability=false) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=6), name=gun, price=123, availability=false) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=7), name=fork, price=23, availability=true) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=8), name=car, price=12345, availability=true) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=10), role=ADMIN) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=11), role=BUSINESS) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=Tue Nov 17 22:32:07 CET 2015, invoiceType=VAT) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=Tue Nov 17 22:32:07 CET 2015, invoiceType=VAT) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=Tue Nov 17 22:32:07 CET 2015, invoiceType=VAT) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=Tue Nov 17 22:32:07 CET 2015, invoiceType=VAT) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=16), firstname=slawek, lastName=borowiec, email=przodownik@tlen.pl, login=przodownik, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 22:32:07.412, invoiceType=VAT)], company=Company(super=AbstractEntity(id=1), name=Samsung, location=korea)) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=17), firstname=agnieszka, lastName=borowiec, email=borowiecA@tlen.pl, login=poka, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 22:32:07.412, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=18), firstname=kalina, lastName=borowiec, email=bbak@tlen.pl, login=bak, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=2015-11-17 22:32:07.417, invoiceType=VAT), Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=2015-11-17 22:32:07.302, invoiceType=VAT)], company=Company(super=AbstractEntity(id=3), name=yamaha, location=japan)) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=19), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=2015-11-17 22:32:07.414, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 22:32:07   [main] INFO  pl.java.scalatech.ThymeleafCamp - Started ThymeleafCamp in 4.306 seconds (JVM running for 4.641) 
+2015-11-17 22:32:26   [main] INFO  pl.java.scalatech.ThymeleafCamp - Starting ThymeleafCamp on przodownik-r1 with PID 25380 (/home/przodownik/blog/thymeleafCamp/build/classes/main started by przodownik in /home/przodownik/blog/thymeleafCamp) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=1), name=Samsung, location=korea) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=2), name=Everlast, location=usa) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=3), name=yamaha, location=japan) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=4), name=hammer, price=10, availability=true) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=5), name=spoon, price=0.34, availability=false) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=6), name=gun, price=123, availability=false) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=7), name=fork, price=23, availability=true) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=8), name=car, price=12345, availability=true) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=10), role=ADMIN) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=11), role=BUSINESS) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=Tue Nov 17 22:32:30 CET 2015, invoiceType=VAT) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=Tue Nov 17 22:32:30 CET 2015, invoiceType=VAT) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=Tue Nov 17 22:32:30 CET 2015, invoiceType=VAT) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=Tue Nov 17 22:32:30 CET 2015, invoiceType=VAT) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=16), firstname=slawek, lastName=borowiec, email=przodownik@tlen.pl, login=przodownik, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 22:32:30.266, invoiceType=VAT)], company=Company(super=AbstractEntity(id=1), name=Samsung, location=korea)) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=17), firstname=agnieszka, lastName=borowiec, email=borowiecA@tlen.pl, login=poka, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 22:32:30.266, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=18), firstname=kalina, lastName=borowiec, email=bbak@tlen.pl, login=bak, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=2015-11-17 22:32:30.271, invoiceType=VAT), Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=2015-11-17 22:32:30.168, invoiceType=VAT)], company=Company(super=AbstractEntity(id=3), name=yamaha, location=japan)) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=19), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=2015-11-17 22:32:30.269, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 22:32:30   [main] INFO  pl.java.scalatech.ThymeleafCamp - Started ThymeleafCamp in 4.33 seconds (JVM running for 4.667) 
+2015-11-17 22:32:35   [http-nio-9111-exec-1] INFO  p.j.s.w.c.HelloWorldController - +++  slawek hello 
+2015-11-17 23:18:58   [main] INFO  pl.java.scalatech.ThymeleafCamp - Starting ThymeleafCamp on przodownik-r1 with PID 26651 (/home/przodownik/blog/thymeleafCamp/build/classes/main started by przodownik in /home/przodownik/blog/thymeleafCamp) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=1), name=Samsung, location=korea) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=2), name=Everlast, location=usa) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=3), name=yamaha, location=japan) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=4), name=hammer, price=10, availability=true) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=5), name=spoon, price=0.34, availability=false) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=6), name=gun, price=123, availability=false) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=7), name=fork, price=23, availability=true) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=8), name=car, price=12345, availability=true) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=10), role=ADMIN) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=11), role=BUSINESS) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=Tue Nov 17 23:19:02 CET 2015, invoiceType=VAT) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=Tue Nov 17 23:19:02 CET 2015, invoiceType=VAT) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=Tue Nov 17 23:19:02 CET 2015, invoiceType=VAT) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=Tue Nov 17 23:19:02 CET 2015, invoiceType=VAT) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=16), firstname=slawek, lastName=borowiec, email=przodownik@tlen.pl, login=przodownik, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 23:19:02.598, invoiceType=VAT)], company=Company(super=AbstractEntity(id=1), name=Samsung, location=korea)) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=17), firstname=agnieszka, lastName=borowiec, email=borowiecA@tlen.pl, login=poka, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 23:19:02.598, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=18), firstname=kalina, lastName=borowiec, email=bbak@tlen.pl, login=bak, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=2015-11-17 23:19:02.603, invoiceType=VAT), Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=2015-11-17 23:19:02.479, invoiceType=VAT)], company=Company(super=AbstractEntity(id=3), name=yamaha, location=japan)) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=19), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=2015-11-17 23:19:02.6, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 23:19:02   [main] INFO  pl.java.scalatech.ThymeleafCamp - Started ThymeleafCamp in 4.24 seconds (JVM running for 4.58) 
+2015-11-17 23:19:03   [http-nio-9111-exec-1] INFO  p.j.s.w.c.SimpleHelperController - +++  default 
+2015-11-17 23:19:05   [http-nio-9111-exec-2] INFO  p.j.s.w.c.SimpleHelperController - +++  default 
+2015-11-17 23:19:06   [http-nio-9111-exec-3] INFO  p.j.s.w.c.SimpleHelperController - +++  default 
+2015-11-17 23:19:06   [http-nio-9111-exec-4] INFO  p.j.s.w.c.SimpleHelperController - +++  default 
+2015-11-17 23:19:07   [http-nio-9111-exec-5] INFO  p.j.s.w.c.SimpleHelperController - +++  default 
+2015-11-17 23:19:08   [http-nio-9111-exec-6] INFO  p.j.s.w.c.SimpleHelperController - +++  default 
+2015-11-17 23:19:36   [main] INFO  pl.java.scalatech.ThymeleafCamp - Starting ThymeleafCamp on przodownik-r1 with PID 26829 (/home/przodownik/blog/thymeleafCamp/build/classes/main started by przodownik in /home/przodownik/blog/thymeleafCamp) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=1), name=Samsung, location=korea) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=2), name=Everlast, location=usa) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=3), name=yamaha, location=japan) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=4), name=hammer, price=10, availability=true) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=5), name=spoon, price=0.34, availability=false) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=6), name=gun, price=123, availability=false) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=7), name=fork, price=23, availability=true) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=8), name=car, price=12345, availability=true) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=10), role=ADMIN) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=11), role=BUSINESS) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=Tue Nov 17 23:19:40 CET 2015, invoiceType=VAT) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=Tue Nov 17 23:19:40 CET 2015, invoiceType=VAT) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=Tue Nov 17 23:19:40 CET 2015, invoiceType=VAT) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=Tue Nov 17 23:19:40 CET 2015, invoiceType=VAT) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=16), firstname=slawek, lastName=borowiec, email=przodownik@tlen.pl, login=przodownik, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 23:19:40.247, invoiceType=VAT)], company=Company(super=AbstractEntity(id=1), name=Samsung, location=korea)) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=17), firstname=agnieszka, lastName=borowiec, email=borowiecA@tlen.pl, login=poka, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 23:19:40.247, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=18), firstname=kalina, lastName=borowiec, email=bbak@tlen.pl, login=bak, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=2015-11-17 23:19:40.253, invoiceType=VAT), Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=2015-11-17 23:19:40.144, invoiceType=VAT)], company=Company(super=AbstractEntity(id=3), name=yamaha, location=japan)) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=19), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=2015-11-17 23:19:40.25, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 23:19:40   [main] INFO  pl.java.scalatech.ThymeleafCamp - Started ThymeleafCamp in 4.363 seconds (JVM running for 4.654) 
+2015-11-17 23:21:10   [http-nio-9111-exec-1] INFO  p.j.s.w.c.SimpleHelperController - +++  default : name : tomelk 
+2015-11-17 23:25:01   [http-nio-9111-exec-8] INFO  p.j.s.w.c.SimpleHelperController - +++  default : name : tomelk 
+2015-11-17 23:25:49   [main] INFO  pl.java.scalatech.ThymeleafCamp - Starting ThymeleafCamp on przodownik-r1 with PID 27170 (/home/przodownik/blog/thymeleafCamp/build/classes/main started by przodownik in /home/przodownik/blog/thymeleafCamp) 
+2015-11-17 23:25:52   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=1), name=Samsung, location=korea) 
+2015-11-17 23:25:52   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=2), name=Everlast, location=usa) 
+2015-11-17 23:25:52   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=3), name=yamaha, location=japan) 
+2015-11-17 23:25:52   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=4), name=hammer, price=10, availability=true) 
+2015-11-17 23:25:52   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=5), name=spoon, price=0.34, availability=false) 
+2015-11-17 23:25:52   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=6), name=gun, price=123, availability=false) 
+2015-11-17 23:25:52   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=7), name=fork, price=23, availability=true) 
+2015-11-17 23:25:52   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=8), name=car, price=12345, availability=true) 
+2015-11-17 23:25:52   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:25:52   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=10), role=ADMIN) 
+2015-11-17 23:25:52   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=11), role=BUSINESS) 
+2015-11-17 23:25:53   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=Tue Nov 17 23:25:52 CET 2015, invoiceType=VAT) 
+2015-11-17 23:25:53   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=Tue Nov 17 23:25:53 CET 2015, invoiceType=VAT) 
+2015-11-17 23:25:53   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=Tue Nov 17 23:25:53 CET 2015, invoiceType=VAT) 
+2015-11-17 23:25:53   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=Tue Nov 17 23:25:53 CET 2015, invoiceType=VAT) 
+2015-11-17 23:25:53   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:25:53   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=16), firstname=slawek, lastName=borowiec, email=przodownik@tlen.pl, login=przodownik, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 23:25:53.07, invoiceType=VAT)], company=Company(super=AbstractEntity(id=1), name=Samsung, location=korea)) 
+2015-11-17 23:25:53   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:25:53   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=17), firstname=agnieszka, lastName=borowiec, email=borowiecA@tlen.pl, login=poka, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 23:25:53.07, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 23:25:53   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:25:53   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=18), firstname=kalina, lastName=borowiec, email=bbak@tlen.pl, login=bak, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=2015-11-17 23:25:53.075, invoiceType=VAT), Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=2015-11-17 23:25:52.978, invoiceType=VAT)], company=Company(super=AbstractEntity(id=3), name=yamaha, location=japan)) 
+2015-11-17 23:25:53   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:25:53   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=19), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=2015-11-17 23:25:53.072, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 23:25:53   [main] INFO  pl.java.scalatech.ThymeleafCamp - Started ThymeleafCamp in 3.87 seconds (JVM running for 4.182) 
+2015-11-17 23:27:01   [http-nio-9111-exec-1] INFO  p.j.s.w.c.SimpleHelperController - +++  default : name : tomelk 
+2015-11-17 23:27:02   [http-nio-9111-exec-2] INFO  p.j.s.w.c.SimpleHelperController - +++  default : name : tomelk 
+2015-11-17 23:27:39   [http-nio-9111-exec-7] INFO  p.j.s.w.c.SimpleHelperController - +++  default : name : tomelk 
+2015-11-17 23:27:44   [http-nio-9111-exec-8] INFO  p.j.s.w.c.SimpleHelperController - +++  default : name : amoa 
+2015-11-17 23:30:20   [main] INFO  pl.java.scalatech.ThymeleafCamp - Starting ThymeleafCamp on przodownik-r1 with PID 27527 (/home/przodownik/blog/thymeleafCamp/build/classes/main started by przodownik in /home/przodownik/blog/thymeleafCamp) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=1), name=Samsung, location=korea) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=2), name=Everlast, location=usa) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=3), name=yamaha, location=japan) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=4), name=hammer, price=10, availability=true) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=5), name=spoon, price=0.34, availability=false) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=6), name=gun, price=123, availability=false) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=7), name=fork, price=23, availability=true) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=8), name=car, price=12345, availability=true) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=10), role=ADMIN) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=11), role=BUSINESS) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=Tue Nov 17 23:30:24 CET 2015, invoiceType=VAT) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=Tue Nov 17 23:30:24 CET 2015, invoiceType=VAT) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=Tue Nov 17 23:30:24 CET 2015, invoiceType=VAT) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=Tue Nov 17 23:30:24 CET 2015, invoiceType=VAT) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=16), firstname=slawek, lastName=borowiec, email=przodownik@tlen.pl, login=przodownik, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 23:30:24.294, invoiceType=VAT)], company=Company(super=AbstractEntity(id=1), name=Samsung, location=korea)) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=17), firstname=agnieszka, lastName=borowiec, email=borowiecA@tlen.pl, login=poka, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 23:30:24.294, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=18), firstname=kalina, lastName=borowiec, email=bbak@tlen.pl, login=bak, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=2015-11-17 23:30:24.298, invoiceType=VAT), Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=2015-11-17 23:30:24.167, invoiceType=VAT)], company=Company(super=AbstractEntity(id=3), name=yamaha, location=japan)) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=19), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=2015-11-17 23:30:24.296, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 23:30:24   [main] INFO  pl.java.scalatech.ThymeleafCamp - Started ThymeleafCamp in 4.384 seconds (JVM running for 4.722) 
+2015-11-17 23:32:51   [http-nio-9111-exec-1] INFO  p.j.s.w.c.SimpleHelperController - slawek 
+2015-11-17 23:32:51   [http-nio-9111-exec-1] INFO  p.j.s.w.c.SimpleHelperController - tomelk 
+2015-11-17 23:32:51   [http-nio-9111-exec-1] INFO  p.j.s.w.c.SimpleHelperController - amoa 
+2015-11-17 23:32:51   [http-nio-9111-exec-1] INFO  p.j.s.w.c.SimpleHelperController - +++  default : name : amoa 
+2015-11-17 23:33:02   [http-nio-9111-exec-2] INFO  p.j.s.w.c.SimpleHelperController - slawek 
+2015-11-17 23:33:02   [http-nio-9111-exec-2] INFO  p.j.s.w.c.SimpleHelperController - tomelk 
+2015-11-17 23:33:02   [http-nio-9111-exec-2] INFO  p.j.s.w.c.SimpleHelperController - amoa 
+2015-11-17 23:33:02   [http-nio-9111-exec-2] INFO  p.j.s.w.c.SimpleHelperController - +++  default : name : amoa 
+2015-11-17 23:33:12   [http-nio-9111-exec-4] INFO  p.j.s.w.c.SimpleHelperController - slawek 
+2015-11-17 23:33:12   [http-nio-9111-exec-4] INFO  p.j.s.w.c.SimpleHelperController - tomelk 
+2015-11-17 23:33:12   [http-nio-9111-exec-4] INFO  p.j.s.w.c.SimpleHelperController - amoa 
+2015-11-17 23:33:12   [http-nio-9111-exec-4] INFO  p.j.s.w.c.SimpleHelperController - +++  slawek : name : slawek 
+2015-11-17 23:36:29   [main] INFO  p.j.s.w.c.SimpleHelperController - result slawek 
+2015-11-17 23:36:41   [main] INFO  p.j.s.w.c.SimpleHelperController - result default 
+2015-11-17 23:37:40   [main] INFO  p.j.s.w.c.SimpleHelperController - result tomelk 
+2015-11-17 23:41:35   [main] INFO  pl.java.scalatech.ThymeleafCamp - Starting ThymeleafCamp on przodownik-r1 with PID 28277 (/home/przodownik/blog/thymeleafCamp/build/classes/main started by przodownik in /home/przodownik/blog/thymeleafCamp) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=1), name=Samsung, location=korea) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=2), name=Everlast, location=usa) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Company(super=AbstractEntity(id=3), name=yamaha, location=japan) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=4), name=hammer, price=10, availability=true) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=5), name=spoon, price=0.34, availability=false) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=6), name=gun, price=123, availability=false) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=7), name=fork, price=23, availability=true) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Product(super=AbstractEntity(id=8), name=car, price=12345, availability=true) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=10), role=ADMIN) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++++ roles !!!Role(super=AbstractEntity(id=11), role=BUSINESS) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=Tue Nov 17 23:41:39 CET 2015, invoiceType=VAT) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=Tue Nov 17 23:41:39 CET 2015, invoiceType=VAT) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=Tue Nov 17 23:41:39 CET 2015, invoiceType=VAT) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=Tue Nov 17 23:41:39 CET 2015, invoiceType=VAT) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=16), firstname=slawek, lastName=borowiec, email=przodownik@tlen.pl, login=przodownik, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 23:41:39.412, invoiceType=VAT)], company=Company(super=AbstractEntity(id=1), name=Samsung, location=korea)) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=17), firstname=agnieszka, lastName=borowiec, email=borowiecA@tlen.pl, login=poka, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2015-11-17 23:41:39.412, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=18), firstname=kalina, lastName=borowiec, email=bbak@tlen.pl, login=bak, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=2015-11-17 23:41:39.417, invoiceType=VAT), Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=2015-11-17 23:41:39.283, invoiceType=VAT)], company=Company(super=AbstractEntity(id=3), name=yamaha, location=japan)) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - User(super=AbstractEntity(id=19), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=2015-11-17 23:41:39.415, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2015-11-17 23:41:39   [main] INFO  pl.java.scalatech.ThymeleafCamp - Started ThymeleafCamp in 4.55 seconds (JVM running for 4.881) 
+2015-11-18 01:08:03   [main] INFO  p.j.s.w.c.HelloWorldController - test hello 
+2015-11-18 01:08:17   [main] INFO  p.j.s.w.c.HelloWorldController - test hello 
+2015-11-18 01:08:36   [main] INFO  p.j.s.w.c.HelloWorldController - test hello 
+2015-11-18 01:08:51   [main] INFO  p.j.s.w.c.HelloWorldController - test hello 
+2015-11-18 01:15:19   [main] INFO  p.j.s.w.c.HelloWorldController - +++  s 
+2015-11-18 01:15:36   [main] INFO  p.j.s.w.c.HelloWorldController - +++  hello world ! 
